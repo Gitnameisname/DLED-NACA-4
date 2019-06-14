@@ -1,0 +1,15 @@
+  
+       XFOIL         Version 6.99
+  
+ Calculated polar for: TempAirfoil                                     
+  
+ 1 1 Reynolds number fixed          Mach number fixed         
+  
+ xtrf =   1.000 (top)        1.000 (bottom)  
+ Mach =   0.200     Re =     3.000 e 6     Ncrit =   9.000
+  
+   alpha    CL        CD       CDp       CM     Top_Xtr  Bot_Xtr
+  ------ -------- --------- --------- -------- -------- --------
+  -1.000   0.8954   0.00371   0.00075  -0.2789   0.8996   0.4041
+   0.000   0.8437   0.00844   0.00330  -0.2409   0.3269   0.4962
+   1.000   0.9408   0.01037   0.00417  -0.2380   0.0072   0.5972
