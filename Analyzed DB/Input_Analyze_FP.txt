@@ -1,0 +1,7 @@
+#1 DATA FOLDER #
+case1:	ActFunc ReLU
+case2:	ActFunc ELU
+$
+
+#2 LOOP #
+loop:	20

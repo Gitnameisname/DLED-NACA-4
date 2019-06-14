@@ -1,0 +1,8 @@
+#1 DATA FOLDER #
+case1:	LearningRate 0_15
+case2:	LearningRate 0_1
+case3:	LearningRate 0_05
+$
+
+#2 LOOP #
+loop:	20

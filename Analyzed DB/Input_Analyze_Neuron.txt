@@ -1,0 +1,7 @@
+#1 DATA FOLDER #
+case1:	Neuron 300
+case2:	Neuron 500
+$
+
+#2 LOOP #
+loop:	20

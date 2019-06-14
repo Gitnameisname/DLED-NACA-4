@@ -1,0 +1,6 @@
+#1 DATA FOLDER #
+case1:	Epoch 500000
+$
+
+#2 LOOP #
+loop:	20

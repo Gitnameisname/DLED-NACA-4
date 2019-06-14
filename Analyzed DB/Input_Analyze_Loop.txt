@@ -1,0 +1,15 @@
+#1 DATA FOLDER #
+case1:	Loop 1
+case2:	Loop 5
+case3:	Loop 10
+case4:	Loop 15
+case5:	Loop 20
+$
+
+#2 LOOP #
+loop1:	1
+loop2:	5
+loop3:	10
+loop4:	15
+loop5:	20
+$
