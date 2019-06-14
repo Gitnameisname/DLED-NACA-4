@@ -1,0 +1,14 @@
+#0 Notice                                  #
+#  All data should be distinguished by tab #
+#  #is for the information of this file    #
+#  For example, To set Max iteration to 2  #
+#  Write Max iter:(\tab)2                  #
+$
+
+#1 Xfoil setting #
+No_point:	100
+Iter:	200
+Re:	3000000
+Mach:	0.2
+timelim:	30
+$

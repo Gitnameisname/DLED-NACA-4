@@ -1,0 +1,27 @@
+#0 Notice                                  #
+#  All data should be distinguished by tab #
+#  #is for the information of this file    #
+#  For example, To set Max iteration to 2  #
+#  Write Max loop:(\tab)2                  #
+$
+
+#1 Training info #
+Start_loop:	20
+Max_loop:	20
+Max_epoach:	100000
+mini_batch_size:	5000
+Initial_DB:	0
+re_Analysis:	1
+$
+
+#2 Hyperparmeter of ANN #
+No_Hidden_Layer:	5
+No_Neuron:	300
+
+No_input:	5
+No_output:	3
+
+Learning_rate:	0.001
+Activation:		ReLU
+Float_Precision:	FP32
+$

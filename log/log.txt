@@ -1,0 +1,83 @@
+Created on 2019-5-22 12:20:57
+Deep Learning Engineering Design: CST Airfoil
+Cheol-Kyun Choi
+====================================================================================================
+# input.txt
+#
+#0 Notice                                  #
+#  All data should be distinguished by tab #
+#  #is for the information of this file    #
+#  For example, To set Max iteration to 2  #
+#  Write Max loop:(\tab)2                  #
+$
+
+#1 Training info #
+Start_loop:	20
+Max_loop:	20
+Max_epoach:	100000
+mini_batch_size:	5000
+Initial_DB:	0
+re_Analysis:	1
+$
+
+#2 Hyperparmeter of ANN #
+No_Hidden_Layer:	5
+No_Neuron:	300
+
+No_input:	5
+No_output:	3
+
+Learning_rate:	0.001
+Activation:		ReLU
+Float_Precision:	FP32
+$
+#input.txt end
+====================================================================================================
+
+
+NACA4_Training:56 - Training Loop: 20
+NACA4_Training:58 - Start initialization for training ANN
+NACA4_ANN98:110 - Data type: FP32
+NACA4_ANN98:217 - Activation function: ReLU
+NACA4_ANN98:452 - Optimization Finished!
+
+NACA4_ANN98:459 - Model was saved in D:\ANN NACA4_V05_2_Optimum\saved\model20
+NACA4_ANN98:469 - runtime - training	: 20250.24 s, 337.50 min, 5.63 hr
+NACA4_ANN98:471 - runtime - test	: 0.04 s, 0.00 min, 0.00 hr
+NACA4_Training:79 - Training was finished well
+NACA4_Training:83 - The number of predicted dataset is equal to answer dataset
+NACA4_Training:103 - Runtime: 20252 sec = 338 min
+NACA4_Training:114 - Test Plot was Saved
+NACA4_Training:121 - >> Create Prediction Configure DB
+NACA4_Training:130 - File "Predict Config20.txt" Created
+
+NACA4_writeDB:75 - Create DB as "Answer DB20.txt"
+NACA4_Training:143 - File "Answer DB20.txt" Created
+
+NACA4_DB:82 - Maximum number of thread: 12
+NACA4_DB:85 - Number of using thread: 10
+NACA4_DB:87 - XFOIL Analyze Start
+NACA4_DB:183 - runtime - re-Analysis: 14940.27 s, 249.00 min, 4.15 hr
+NACA4_writeDB:75 - Create DB as "Additional DB20.txt"
+NACA4_Training:155 - File "Additional DB20.txt" Created
+
+NACA4_writeDB:75 - Create DB as "Additional DB20.txt"
+NACA4_Training:174 - File "Additional DB20.txt" Assorted
+
+NACA4_Training:180 - >> Create Answer DB
+NACA4_writeDB:75 - Create DB as "Answer DB20.txt"
+NACA4_Training:191 - File "Answer DB20.txt" Created
+
+NACA4_writeDB:75 - Create DB as "Error DB20.txt"
+NACA4_Training:201 - File "Error DB20.txt" Created
+
+NACA4_writeDB:75 - Create DB as "Airfoil DB21.txt"
+NACA4_Training:214 - File "Airfoil DB21.txt" Created
+
+NACA4_Training:218 - Runtime: 35197 sec = 587 min
+NACA4_Training:220 - >> Training Process Finished <<
+
+NACA4_Training:229 - Create Training Info DB as "Training Info20.txt"
+NACA4_main:80 - >> Training Loop: 20 was Finished
+
+
