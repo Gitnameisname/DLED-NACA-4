@@ -24,6 +24,7 @@ Detail description about these codes will be uploaded after grad thesis is passe
       Only 4 Activation Functions are possible to use: Identity, ReLU, ELU, Softplus
 
   Xfoil setting.txt
+  
     No_point: Over 400, XFOIL cannot make good results. 100~200 recommended
     Iter: Iteration number of Xfoil calculation
     Re: Reynolds number
