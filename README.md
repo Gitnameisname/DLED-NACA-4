@@ -6,6 +6,7 @@ Detail description about these codes will be uploaded after grad thesis is passe
 1. Setup training conditions at Input\input.txt and Input\Xfoil setting. txt
 
   input.txt
+  
     #1 Training Info
       Start_loop: Start loop of Database Enhancement Loop(DEL)
       Max_loop: End loop of DEL
