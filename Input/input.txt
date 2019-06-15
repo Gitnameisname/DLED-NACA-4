@@ -6,11 +6,11 @@
 $
 
 #1 Training info #
-Start_loop:	20
+Start_loop:	1
 Max_loop:	20
 Max_epoach:	100000
 mini_batch_size:	5000
-Initial_DB:	0
+Initial_DB:	1
 re_Analysis:	1
 $
 
