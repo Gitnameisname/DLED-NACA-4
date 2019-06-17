@@ -1,7 +1,8 @@
 # DLED-NACA-4
 Deep Learning based Engineering Design: NACA 4-digit Airfoil
 
-Detail description about these codes will be uploaded after grad thesis is passed.
+- Description of this process is in my grad thesis.(But written in korean)
+- To run these codes, you need python3 and tensorflow-gpu.
 
 1. Setup training conditions at Input\input.txt and Input\Xfoil setting. txt
 
